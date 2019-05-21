@@ -1,0 +1,90 @@
+#achievement {
+}
+
+#startPic {
+  height: 620px;
+  @media (--lg) {
+    height: 505px;
+  }
+  @media (--md) {
+    height: 385px;
+  }
+  @media (--sm) {
+    position: absolute;
+    right: 0;
+    height: 360px;
+    width: 115%;
+  }
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  filter: alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+.text_ask {
+  font-size: 18px;
+  color: var(--wt-color-white-60);
+}
+
+.text_ask_mini {
+  font-size: 15px;
+  color: var(--wt-color-white-30);
+}
+
+#getInTouch {
+  &_button {
+    background: var(--wt-color-white-30);
+    height: 40px;
+    width: 90px;
+  }
+}
+
+#getInTouchBack{
+  //all: unset;
+  position: absolute;
+  width: 100%;
+  height: 725px;
+  right: 0;
+  background: white;
+  &_s{
+
+  }
+}
+
+#team{
+  @media (--sm) {
+    width: 850px;
+  }
+}
+
+#light_mult{
+  position:relative;
+  margin-top: -437px;
+  margin-left: 110px;
+  z-index: -1;
+  transform: rotate(-101grad);
+}
+
+.text_achievement_title_mini{
+  color: var(--wt-color-white);
+  font-size: 200%;
+  &_big{
+    font-size: 240%;
+  }
+  &_mini{
+    color: var(--wt-color-white-60);
+    font-size: 190%;
+  }
+}
+
+#learnMore{
+  background: var(--secondary-highlight-color);
+  color: var(--wt-color-white);
+  font-size: 100%;
+  height: 50px;
+  width: 180px;
+  border-radius: 30px;
+}

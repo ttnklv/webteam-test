@@ -1,0 +1,155 @@
+:root {
+  --position-center: -350px;
+  --position-center-left: 65px;
+  --distance-for-the-logo-in-the-header: 20px;
+}
+
+//--xlg
+//--lg
+//--md
+//--sm
+
+.main_picture {
+  position: relative;
+}
+
+#light {
+  position: center;
+}
+
+#start {
+  z-index: 1;
+  @media (--sm) {
+    position: absolute;
+    margin-top: 27px;
+    width: 105px;
+    right: 390px;
+  }
+
+  &_light {
+    z-index: -1;
+    position: absolute;
+    left: 370px;
+    top: 0px;
+  }
+}
+
+#word {
+  &_game {
+    z-index: 14;
+    top: 130px;
+    left: 130px;
+    position: absolute;
+    height: 20%;
+  }
+
+  &_changing {
+    z-index: 14;
+    top: 220px;
+    position: absolute;
+    left: 95px;
+    height: 20%;
+  }
+}
+
+#changing {
+  position: absolute;
+  z-index: var(--zone-index-word);
+  width: 24%;
+  left: 19%;
+  @media (--xlg) {
+    margin-top: 145px;
+  }
+  @media (--lg) {
+    margin-top: 115px;
+  }
+  @media (--md) {
+    margin-top: 87px;
+  }
+  @media (--sm) {
+    margin-top: 57px;
+  }
+}
+
+#game {
+  position: absolute;
+  z-index: var(--zone-index-word);
+  width: 12%;
+  left: 7%;
+  @media (--xlg) {
+    top: 200px;
+  }
+  @media (--lg) {
+    top: 170px;
+  }
+  @media (--md) {
+    top: 137px;
+  }
+  @media (--sm) {
+    top: 107px;
+  }
+}
+
+#start_min {
+  position: absolute;
+  width: 90%;
+  right: 20%;
+}
+
+
+.startPic_size{
+  height: 520px;
+}
+
+.text {
+  color: white;
+  font-family: system-ui;
+  position: absolute;
+  @media (--xlg) {
+    bottom: 22%;
+    left: 28%;
+    font-size: 136%;
+  }
+  @media (--lg) {
+    font-size: 106%;
+  }
+  @media (--md) {
+    left: 26.6%;
+    margin-top: 35%;
+    font-size: 90%;
+  }
+  @media (--sm) {
+    font-size: 75%;
+  }
+
+  &_block{
+    top: 16px;
+    @media (--sm) {
+      font-size: 130%;
+      top: 160px;
+    }
+    position: absolute;
+    font-size: 130%;
+    left: 150px;
+  }
+
+  &_img {
+    float: right;
+    margin-top: -15px;
+    @media (--xlg) {
+      height: 60px;
+      margin-left: var(--distance-for-the-logo-in-the-header);
+    }
+    @media (--lg) {
+      height: 50px;
+      margin-left: calc(var(--distance-for-the-logo-in-the-header) - 5px);
+    }
+    @media (--md) {
+      height: 40px;
+      margin-top: -10px;
+    }
+    @media (--sm) {
+      height: 40px;
+    }
+  }
+}

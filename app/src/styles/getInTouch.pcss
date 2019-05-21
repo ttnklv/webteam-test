@@ -29,14 +29,14 @@
   @media (--sm) {
     &_img_bottom{
       position: absolute;
-      right: 21%;
+      right: 30%;
       width: 78%;
     }
     &_img_chel{
       position: absolute;
-      width: 46%;
-      top: 12%;
-      right: 33%;
+      width: 43%;
+      top: 7%;
+      right: 42%;
     }
   }
 }
@@ -52,6 +52,10 @@ input, select{
   color: var(--color-font);
   width: 105%;
   height: 40px;
+  @media (--sm) {
+    width: 63%;
+    margin-right: 400px;
+  }
 }
 
 .submit_button{
@@ -60,10 +64,21 @@ input, select{
   height: 35px;
   width: 47%;
   border-radius: 18px;
+  @media (--sm) {
+    margin-top: 200px;
+    height: 45px;
+    width: 32%;
+    border-radius: 25px;
+  }
 }
 
 #selected{
   border-radius: 3px;
+}
+
+.finish{
+  font-size: 120%;
+  margin-left: 20px;
 }
 
 .largeText-1{
@@ -74,6 +89,10 @@ input, select{
   position: absolute;
   top: 24.8%;
   left: 76.5%;
+  @media (--sm) {
+    top: 62%;
+    left: 3%;
+  }
 }
 #textarea-width{
   border: none;

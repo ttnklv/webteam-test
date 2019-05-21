@@ -8,7 +8,7 @@ class GetInTouch extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      miniScreen: window.screen.availWidth <= 640,
+      miniScreen: screen.width <= 640,
     };
   }
 
@@ -45,10 +45,10 @@ class GetInTouch extends Component {
 
                     <button className="wt-offset-top-xlg-24 submit_button">Submit</button>
 
-                    <div className="text-1 wt-offset-top-xlg-24">Meet us GDC</div>
+                    <div className="finish text-1 wt-offset-top-xlg-24">Meet us GDC</div>
 
-                    <div className="text-1 wt-offset-top-xlg-24">Fancy rushing our party? Meet us at<br/>
-                      <a>Game Developers Conference (GDC)</a>,<br/>
+                    <div  className="finish text-1 wt-offset-top-xlg-24">Fancy rushing our party?
+                      Meet us at <a>Game<br/> Developers Conference (GDC)</a>,
                       the world's largest professional game<br/>
                       industry event, and score some loot.
                     </div>

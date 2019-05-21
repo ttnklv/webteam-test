@@ -12,7 +12,7 @@ class Multiplayerteams extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      miniScreen: window.screen.availWidth <= 640,
+      miniScreen: screen.width <= 640,
     };
   }
 

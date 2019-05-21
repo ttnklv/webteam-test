@@ -33,7 +33,7 @@ class Cards extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      miniScreen: window.screen.availWidth <= 640,
+      miniScreen: window.screen.width <= 640,
       button1: false,
       button2: false,
       button3: false,

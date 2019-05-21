@@ -20,7 +20,7 @@ class Ask extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      miniScreen: window.screen.availWidth <= 640,
+      miniScreen: window.screen.width <= 640,
     };
   }
 

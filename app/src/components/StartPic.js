@@ -25,11 +25,11 @@ class StartPic extends Component {
         {this.state.miniScreen ?
           <div>
 
-            <img id="start_light" src={light} align="lighr"/>
+            <img id="start_light" src={light} alt="light"/>
             <div className="wt-offset-top-48">
             <img id="start_min" src={start1} alt="start"/>
             <img id="word_game" src={game} alt="start"/>
-            <img id="word_changing" src={changind} align="chan"/>
+            <img id="word_changing" src={changind} alt="chan"/>
 
             <div className="text text_block" >Trusted by developers using<br/><br/><br/>
             <div className="logo_block">

@@ -43,12 +43,17 @@ class App extends Component {
             </div>
             :
             <div>
-              <div className="startPic_size"><div id="startPic"><StartPicture/></div></div>
+              <div className="startPic_size">
+                <div id="startPic"><StartPicture/></div>
+              </div>
               <div className={this.screenSize()} id="achievement"><Achievement/></div>
               <div className={this.screenSize()}><Cards/></div>
               <div className={this.screenSize()}><Multiplayerteams/></div>
               <div className={this.screenSize()}><Ask/></div>
-              {/*<div className="wt-offset-top-xlg-96" id="getInTouchBack"><div id="getInTouchBack_s"><GetInTouch/></div></div>*/}
+              <div className="wt-offset-top-xlg-96" id="getInTouchBack">
+                <div id="getInTouchBack_s">
+                  <GetInTouch/></div>
+              </div>
             </div>
           }
           {/*<button id="getInTouch_button" onClick={() => this.test()}>Get in touch</button>*/}

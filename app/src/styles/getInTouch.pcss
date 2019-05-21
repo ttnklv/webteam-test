@@ -6,13 +6,14 @@
 .container_getInTouch{
   right: 50px;
   width: 720px;
-  background: red;
 }
 
 #getInTouch{
   background: var(--wt-color-white);
 }
-
+.pad{
+  margin-top:500px;
+}
 .inTouch{
   &_img_bottom{
     position: absolute;
@@ -24,6 +25,19 @@
     width: 26%;
     top: 12%;
     right: 59%;
+  }
+  @media (--sm) {
+    &_img_bottom{
+      position: absolute;
+      right: 21%;
+      width: 78%;
+    }
+    &_img_chel{
+      position: absolute;
+      width: 46%;
+      top: 12%;
+      right: 33%;
+    }
   }
 }
 

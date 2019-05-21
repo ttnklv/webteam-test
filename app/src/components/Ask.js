@@ -45,26 +45,28 @@ class Ask extends Component {
               <div className="wt-col-4">
                 <img className="logo" id="ubisoft" src={ubisoft} alt="ubisoft"/>
               </div>
-              <div className="wt-col-4">
-                <img className="logo" id="naughtydog" src={naughtydog} alt="naughtydog"/>
-              </div>
 
             </div>
 
             <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around">
 
               <div className="wt-col-4">
+                <img className="logo" id="naughtydog" src={naughtydog} alt="naughtydog"/>
+              </div>
+
+              <div className="wt-col-4">
                 <img className="logo" id="valve" src={valve} alt="valve"/>
               </div>
+            </div>
+
+            <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around">
               <div className="wt-col-4">
                 <img className="logo" id="sega" src={sega} alt="sega"/>
               </div>
               <div className="wt-col-4">
                 <img className="logo" id="square" src={square} alt="square"/>
               </div>
-
             </div>
-
             <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around">
               <div className="wt-col-4">
                 <img className="logo" id="blizzard" src={blizzard} alt="blizzard"/>
@@ -72,24 +74,24 @@ class Ask extends Component {
               <div className="wt-col-4">
                 <img className="logo" id="bioware" src={bioware} alt="bioware"/>
               </div>
+            </div>
+
+            <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around">
               <div className="wt-col-4">
                 <img className="logo" id="bungie" src={bungie} alt="bungie"/>
               </div>
-
-            </div>
-
-            <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_start">
-
               <div className="wt-col-4">
                 <img className="logo" id="mojang" src={mojang} alt="mojang"/>
               </div>
+            </div>
+
+            <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around">
               <div className="wt-col-4">
                 <img className="logo " id="epic" src={epic} alt="epic"/>
               </div>
               <div className="wt-col-4">
                 <img className="logo" id="insomniac" src={insomniac} alt="insomniac"/>
               </div>
-
             </div>
 
             <div className="wt-row wt-row_size_l wt-row_direction_column wt-offset-top-24">
@@ -101,12 +103,20 @@ class Ask extends Component {
                 when you can rely on it.
               </div>
 
+              <div className="wt-offset-top-24 wt-col-4 text_ask_mini">Joachim Ante,<br/>
+                Unity CTO & Founder
+              </div>
+
 
               <div className="wt-offset-top-24 wt-col-auto-fill text_ask">We use TeamCity to build games for
                 various platforms, in parallel, multiple
                 times per day. The value we receive from
                 the product, and the support from the
                 dev team, are fantastic!
+              </div>
+
+              <div className="wt-col-7 wt-offset-top-24 text_ask_mini">Oleg Gerovich,<br/>
+                Senior Software Engineer, Wargaming Chicago-Baltimore
               </div>
 
 
@@ -119,24 +129,11 @@ class Ask extends Component {
                 parts of our pipeline.
               </div>
 
-            </div>
-
-            <div className="wt-row wt-row_size_l wt-row_wide wt-row_wrap wt-row-xlg_justify_around wt-offset-top-24">
-
-              <div className="wt-col-4 text_ask_mini">Joachim Ante,<br/>
-                Unity CTO & Founder
-              </div>
-
-              <div className="wt-col-4 text_ask_mini">Oleg Gerovich,<br/>
-                Senior Software Engineer,<br/>
-                Wargaming Chicago-Baltimore
-              </div>
-
-              <div className="wt-col-4 text_ask_mini">Matthew Davey,<br/>
+              <div className="wt-offset-top-24 wt-col-4 text_ask_mini">Matthew Davey,<br/>
                 dotBunny
               </div>
-
             </div>
+
           </div>
           :
           <div>

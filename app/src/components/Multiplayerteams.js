@@ -8,6 +8,7 @@ import light from "../../static/img/assets/gd_header_light.svg"
 import './../../index.entry.pcss';
 
 class Multiplayerteams extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
